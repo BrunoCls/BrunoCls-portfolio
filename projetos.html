@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bruno Carlos - Desenvolvedor Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="keywords" content="Desenvolvedor, front-end, Web"> 
+    <meta name="robots" content="index, follow"> 
+    <title>Bruno Carlos - Desenvolvedor Web</title> 
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="menu" role="navigation">
+            <div class="navbar-brand navbar-item">
+                <a href="index.html"><img src="img/BrunoCarlos2.png"></a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <div class="menu-section">
+                    <div class="menu-toogle">
+                    <span class="um" aria-hidden="true"></span>
+                    <span class="dois" aria-hidden="true"></span>
+                    <span class="tres" aria-hidden="true"></span>
+                    </div>
+
+                    <nav class="menu-mobile">
+                        <ul>
+                            <li><a href="index.html" >HOME</a></li>
+                            <li><a href="#sobreMim" onclick="menuSection.classList.remove('on')">SOBRE</a></li>
+                            <li><a href="#skills" onclick="menuSection.classList.remove('on')">SKILLS</a></li>
+                            <li><a href="#services" onclick="menuSection.classList.remove('on')">SERVIÇOS</a></li>
+                            <li><a href="#projects" onclick="menuSection.classList.remove('on')">PROJETOS</a></li>
+                            <li><a href="#contato" onclick="menuSection.classList.remove('on')">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="index.html"class="navbar-item menuItem">Home</a>
+                    <a href="/index.html#sobreMim" class="navbar-item">Sobre</a>
+                    <a href="/index.html#skills" class="navbar-item">Skills</a>
+                    <a href="/index.html#services" class="navbar-item">Serviços</a>
+                    <a href="/index.html#projects" class="navbar-item">Projetos</a>
+                        <div class="buttons">
+                            <a href="#contato" class="button">Contato</a>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-total">
+    <div id="title-1">
+    <h1>Conheça meus <span>projetos!</span></h1>
+    <p>Conheça alguns dos projetos em que trabalhei.</p>
+    </div>
+
+    <div id="projects-list">
+        <div class="project-item">
+            <img src="img/mockup-portfolio01.png" alt="Projeto 01">
+        <div class="div-container">
+            <h2 class="animate">Descrição do projeto.</h2>
+            <p class="animate">Projeto que simula um site empresarial feito para uma agencia especializada em serviços web.<br>
+            Varias tecnicas e conceitos de grid layout foram utilizadas, assim como, flexbox e media queries<br>
+        para tornar o site responsivo.</p>
+            <h2 class="animate">Tecnologias utilizadas:</h2>
+            <ul >
+            <li class="animate">Html5</li>
+            <li class="animate">Css3</li>
+            <li class="animate">JavaScript</li>
+            <li class="animate">Grid e Flexbox</li>
+            <li class="animate">Responsividade</li>
+            </ul>
+            <button>Visitar</button>
+            
+        </div>
+        
+        </div>
+        
+        <div class="project-item">
+            <img src="img/mockup-portfolio2.png" alt="Projeto 02">
+        <div class="div-container">
+            <h2 class="animate">Descrição do projeto.</h2>
+            <p class="animate">Website demonstrativo desenvolvido para um hotel.<br>
+            <p class="animate">Posicionamento de elementos foi o foco principal do projeto.<br>
+            Flexbox foi o principal modelo de layout utilizado.</p>
+            <h2 class="animate">Tecnologias utilizadas:</h2>
+            <ul>
+            <li class="animate">Html5</li>
+            <li class="animate">Css3</li>
+            <li class="animate">Flexbox</li>
+            <li class="animate">Responsividade</li>
+            </ul>
+            <button>Visitar</button>
+        </div>
+        </div>
+
+        <div class="project-item">
+            <img src="img/mockup-portfolio4.png" alt="Projeto 03">
+        <div class="div-container">
+            <h2 class="animate">Descrição do projeto.</h2>
+            <p class="animate">Um projeto que visa treinar conceitos de posicionamento e ordenamento do layout.</p>
+            <h2 class="animate">Tecnologias utilizadas:</h2>
+            <ul>
+            <li class="animate">Html5</li>
+            <li class="animate">Css3</li>
+            <li class="animate">Jquery</li>
+            <li class="animate">Flexbox</li>
+            <li class="animate">Responsividade</li>
+            </ul>
+            <button>Visitar</button>
+        </div>
+        </div>
+
+        <div class="project-item">
+            <img src="img/mockup-portfolio3.png" alt="Projeto 04">
+        <div class="div-container">
+            <h2 class="animate">Descrição do projeto.</h2>
+            <p class="animate">Uma simples tela de login, o projeto visa principalmente a questão do design.<br>
+            Os conceitos focados foram a harmonia das cores e o posicionamento dos elementos.</p>
+            <h2 class="animate">Tecnologias utilizadas:</h2>
+            <ul>
+            <li class="animate">Html5</li>
+            <li class="animate">Css3</li>
+            <li class="animate">Grid e Flexbox</li>
+            <li class="animate">Responsividade</li>
+            </ul>
+            <button>Visitar</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <footer id="contato">
+        <h1>Contato</h1>
+        <p><b>E-mail: </b>brunocarlos004@gmail.com</p>
+        <h2>Ou me envie uma mensagem, estou sempre online ;)</h2>
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5532999151839&text=Ol%C3%A1%2C%20estou%20interessado%20em%20seus%20servi%C3%A7os." target="_blank"><p>Whatsapp: (32)999151839</p></a>
+        <div id="icons">
+            <a href="https://github.com/BrunoCls" target=”_blank”><img src="img/github-logo.png"></a>
+            <a href="https://www.linkedin.com/in/bruno-carlos-253157224/" target="_blank"><img src="img/logotipo-do-linkedin.png"></a>
+        </div>
+        <span><p>© 2022 <b>Bruno Carlos</b> | Todos os direitos reservados.</p></span>
+    </footer>
+    <script src="menu-mobile.js"></script>
+    <script src="animateScroll2.js"></script>
+</body>
+</html>
