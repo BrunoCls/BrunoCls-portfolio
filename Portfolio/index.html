@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bruno Carlos - Desenvolvedor Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="keywords" content="Desenvolvedor, front-end, Web"> 
+    <meta name="robots" content="index, follow"> 
+    <title>Bruno Carlos - Desenvolvedor Web</title> 
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="menu" role="navigation">
+            <div class="navbar-brand navbar-item">
+                <img src="img/BrunoCarlos2.png">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <div class="menu-section">
+                    <div class="menu-toogle">
+                    <span class="um" aria-hidden="true"></span>
+                    <span class="dois" aria-hidden="true"></span>
+                    <span class="tres" aria-hidden="true"></span>
+                    </div>
+
+                    <nav class="menu-mobile">
+                        <ul>
+                            <li><a href="index.html" >HOME</a></li>
+                            <li><a href="#sobreMim" onclick="menuSection.classList.remove('on')">SOBRE</a></li>
+                            <li><a href="#skills" onclick="menuSection.classList.remove('on')">SKILLS</a></li>
+                            <li><a href="#services" onclick="menuSection.classList.remove('on')">SERVIÇOS</a></li>
+                            <li><a href="#projects" onclick="menuSection.classList.remove('on')">PROJETOS</a></li>
+                            <li><a href="#contato" onclick="menuSection.classList.remove('on')">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="index.html"class="navbar-item menuItem">Home</a>
+                    <a href="#sobreMim" class="navbar-item">Sobre</a>
+                    <a href="#skills" class="navbar-item">Skills</a>
+                    <a href="#services" class="navbar-item">Serviços</a>
+                    <a href="#projects" class="navbar-item">Projetos</a>
+                        <div class="buttons">
+                            <a href="#contato" class="button">Contato</a>
+                        </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero is-fullheight animate__animated animate__fadeIn">
+            <div class="hero-body">
+                <img src="img/logo.png">
+            </div>
+        </section>
+    </header>
+
+    <section class="section_first animate">
+    <article id="sobreMim">
+        <h1>Sobre <span>Mim</span></h1>
+        <p>Programador e desenvolvedor<br>junior atuando<br>
+            há 2 anos na area.<br>
+            Atuo no desenvolvimento web<br>focado no front-end mas<br>também com conhecimentos<br>em back-end e banco de dados.</p>
+        <br>
+        <p>Apaixonado por codigos, gosto de desafios<br>
+        e aprender novas coisas é meu maior hobby.</p>
+    </article> 
+    </section>
+    
+    <section id="skills" >
+        <article>
+            <h1>Skills</h1>
+            <ul class="animate">
+                <div>
+                <li><img src="img/javascript-logo.png"><p>JavaScript</p></li>
+                <li><img src="img/react-logo.png"><p>ReactJS (estudando)</p></li>
+                <li><img src="img/bulma-logo.png"><p>Bulma Framework</p></li>
+                </div>
+                <div>
+                <li><img src="img/github-logo.png"><p>GitHub</p></li>
+                <li><img src="img/html-logo.png"><p>Html 5</p></li>
+                <li><img src="img/css-logo.png"><p>Css 3</p></li>
+                </div>
+            </ul>
+        </article>
+    </section>
+    <section id="services">
+        <article class="animate">
+            <h1>Serviços</h1>
+            <div class="container">
+            <div class="part1">
+            <div>
+                <img src="img/programacao.png">
+                <h2>Criação de sistemas web</h2>
+                <p>Desenvolvimento de<br> 
+                    sistemas web de controle financeiro, gestão de<br> 
+                    estoque, gestão de clientes,<br>
+                    e muito mais...</p>
+            </div>
+            <div>
+                <img src="img/codificacao-da-web.png">
+                <h2>Desenvolvedor front-end</h2>
+                <p>Com os conhecimentos nas<br>
+                    principais tecnologias web,<br>
+                    realizo manutenções em sites<br>
+                    ja existentes.</p>
+            </div>
+            </div>
+            <div class="part2">
+            <div>
+                <img src="img/navegador-da-web.png">
+                <h2>Criação de websites</h2>
+                <p>Desenvolvo sites, desde o front,<br>
+                    back, até o banco de dados</p>
+                
+            </div>
+            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5532999151839&text=Ol%C3%A1%2C%20estou%20interessado%20em%20seus%20servi%C3%A7os." target="_blank"><button>SAIBA MAIS</button></a>
+            </div>
+            </div>
+        </article>
+    </section>
+    <section id="projects">
+        <article>
+            <h1>Projetos</h1>
+            <p>Desde 2020 venho desenvolvendo diversos projetos,<br>
+                aqui listarei os mais relevantes em ganhos de experiencia.</p>
+            <div class="slider">
+            <div class="slides">
+                <div class="slide first"><img src="img/mockup-portfolio01.png"></div>
+                <div class="slide"><img class="item-img" src="img/mockup-portfolio2.png"></div>
+                <div class="slide"><img class="item-img" src="img/mockup-portfolio3.png"></div>
+                <div class="slide"><img class="item-img" src="img/mockup-portfolio4.png"></div>
+            </div>
+            </div>
+            <button onclick="location.href='projetos.html'">VER MAIS</button>
+        </article>
+    </section>
+    <footer id="contato">
+        <div class="footer-container">
+        <h1>Contato</h1>
+        <p><b>E-mail: </b>brunocarlos004@gmail.com</p>
+        <h2>Ou me envie uma mensagem, estou sempre online ;)</h2>
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5532999151839&text=Ol%C3%A1%2C%20estou%20interessado%20em%20seus%20servi%C3%A7os." target="_blank"><p>Whatsapp: (32)999151839</p></a>
+        <div id="icons">
+            <a href="https://github.com/BrunoCls" target=”_blank”><img src="img/github-logo.png"></a>
+            <a href="https://www.linkedin.com/in/bruno-carlos-253157224/" target="_blank"><img src="img/logotipo-do-linkedin.png"></a>
+        </div>
+        <span><p>© 2022 <b>Bruno Carlos</b> | Todos os direitos reservados.</p></span>
+    </div>
+    </footer>
+    <script src="menujs.js"></script>
+    <script src="scroll.js"></script>
+    <script src="animateScroll.js"></script>
+    <script src="menu-mobile.js"></script>
+</body>
+</html>
